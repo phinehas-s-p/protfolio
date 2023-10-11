@@ -1,0 +1,90 @@
+<!-- god is great -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+   <header>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href=''>Home</a></li>
+          <li><a href='#about'>About</a></li>
+          <li><a href='#projects'>Projects</a></li>
+          <li><a href='#contact'>Contact Me</a></li>
+        </ul>
+      </nav>
+   </header>
+
+    <figure class="profile">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAABCFBMVEX/wgD/////6L5ncHmKXEL53KTexJL/xQD/wAD/vgD/xwCGWEPo6Oju7e3/vADi4+NBR1OssLT/7cJia3VyeoJbZXD/9d6FVTunqq9gbXz/8dL/3Y3/1nv/0Vz/zDz/yCb/++z/6bT/4pr/4aT/02X//ff/7sn/24P/zVOBU0WOi4BVXWf/xCv/yUa8iC7/xjmlfmGqeTW0gjGcbDuSYz/RnCV7Tkbmrhi/nn3SuJPs1a3utRHHqYd9SjGacFSXiV/Kp0GupI2Xm53Oz8uJjo58gYG9v8CjcjjIkSrbph+wjW/QroN1PSbCoEbBs5ZUZ3+zmEx7em6LgWOinpLby6ypkVfUqzYvNkWd7lthAAAMOklEQVR4nL2ceUPaShfGRwMEEkVLWERU0IBKsYiKoqHaiuJCa9X2tvf7f5N3JgtZZjsTet/nry5k5pdnzpxZMglaWkSt6ua+3dja3mk2EVazubO91bBLm9XWQsWi9EC7jfZhExWwUETu35uf2o3d9GCpoDrV3S1ULOaRQPliEW3tVjv/J6jq3vZR3B2eCoWj7b3qfw9VtXeKIKA5WHHHVuVSg9pvHykR+VxH7f3/CqplH4vDiK988dhWiHswVGfvOCWRz3W8Bw56IFTLbsraTTcMA+XHY+4PCgjqFgxqV+KSrqP86Onk7Gx4wocibu3+NajN7aIQyTBGT4/mRdc0u6cYT6Ti9uZfgeo0kNAmHZ0/Zkwzg9Xti5GIWaghDy0p1P6xMJiM/NOw6xJlMuaZlImYdSzNDxKozoHQJl1/Gpo+EtbIhSIRr/v/bTCb80Bilhiqeii2afTYDZHMUwORHjg6f+qfnpw8npyc9s+fxwFhRIVDcY4XQpWE7aCjfsQlHFFjffzcP8PxFVVm2H9GtF+ltFAHbJt0feTaNH7sZqIaPp9kul0zk5TZPeuPjaRZB6mgWm0O0/jRZXrOJOs3aaDgP0wqfxXa/EzKhep8Yke4Mc484ds2zrkIDKiLs/4oWVDhE5eKB7XJyeH6aDjEN60/deUsAdLwdEwHO8nvvETKgaoecZjQ0MStZ8CZzIs+E4lQHXE6IRtq/4hZCtajiXu+gk8m26UAi51HmVA8n1yHzD6OJ3Db9fNjkkyTnS+AyjO9YkFt8nzSR9ghsz+6ADPhfICTxOPp+QixDTtixRUDqsWfpzwSi87O4Eb5ZGY3c4bbkeFX/pjRB2moFicXkDTQ9apQZPLBLobniMbKMzIDDdXm+mQMU+FEuM5GDKq2HIoztoRGLYR10afLpUecJFRJMC14XMwol6p7Tsd7ITk6J6CqfCS36y3KdMqIKqyqCKpzyIcy+gsbhafL7ER62BFA8QMK6y/4xMmhybCKQe0LkPTR4hE15g84+zyojmh1pz8JoWqB0hhFcmiHA9UQTsg5fc/juJnNZpeXl7PZ4Cb4J0rdZ8Fip9BgQ22KkNCYCXR9M/t85TilUMuOc3U5yFzTXKZo8YzQJhNqW7iYokZhbMfg0ll2QWIi/+I4s5ukX2Ko/DYLale4Nk+m89r14MpJ4sTIlq9mcayuIM6xirs0VOtYdAUyTqMhVcvMiEdcJJ/L+ZyJYHXP+YFOFM4X5lC2eF/FiM5Xrgcik6JczmUYXOajGCpvJ6E6TeEFCA0jPl0tg5A8rJs51VBSRbOTgNqT7ImNo0xgJEK1HFKJgwoV9uJQkojCK9Cw7RwVJkI18KlMUaIiCqIKgSIqMsjUZmpMhCqAepJABVHlQ0mMQvpzYNSNo8iEqa48Kjxxkeg4CrUv3j8kUGZglDIT1sCDOpFBFfcjUPx5ua/5Uq92qdp6xKrPrlXmmQzKn6+7UFXugpiG+pwG6uraywni0Q/LW8i7ULb02UYIpRznBMq59nOCrJ6CPYfakf02ElODBZwyJYkKayeAqsrCPAKVyaj3vuXSpdf9JEMyUbHqQ8myOYrlqTSRPshAodysjqE621KmRTI6llMDQ6Htjgsl73soOvbVBqpMpfk4Iw10r/9hqF3Ic0UjnCVcKw3Ikb4H6H24/XZdqC0QVLhuUE1VQZgDkieB2nKhAL+M7XKqOrV8418oH2ZcEaiWPCGg+E6CYlJw5lCyWYKrYgtDiRcMoYL5sLJRIdQIBLWLoRqwR8N6MNCoMi0vz/yZi2SO7ivfwFBtEFOwj6fsE+l9HlQNZBRC7SXU+gRjOtz7hsuu3aQa+mruULAFrKmFqrJljI+fzWZvVBcNcw1Izs1m90BVNatIvIMwp8dMWZxvUkyGl/1MRUo4AMXvJtqHpM7CHi7RztUyykOMB3V1XZsRqCykWQolJJ/gYTXdErPppghYznXtm01KkM67CZSNxJtSMSj7JkXfC6ByWTBUA4FGPt2Dmn1PFVJY1xnPa8FGbwi1hQCTKQLvFvnte0omDGWDYwojyefnRJ/cInO1dK2HoQYuFChWMBIsTTW9G02zanD1/dK9Hpaom0AoL1Flv6WEcm7cy4EpHYiEdeAWm9Iox+17Nrw2qBoLQC27dwQLXyU19xaEAo78itpKTYUv3FNpO5XfbtupjdpSqAfc+zzlD1NZZbfFh9UoKLXoK2ylgeIc5eFpBzbMhNL31ZlKigdEt2EDcqhCirBqqDHhARk2HIU6VIe6fQYtY+ZQDdgkL6KmslWOZr2oUOFJnuiZP0PGyw/F8a/0q669vsFWVx5UCbhwCKS/1Ouqg3JF07T6m4JXm9Allifj96tWUbOqdEugtNevYK/wEgu6GCXSX15x+VOlObFT1jzJHszMddiBL9uxT1/rpHQlq3yjcAO+Q6tpwzc4yG6Q5ZVvqThV943CYQWzyt3ggG4FIf2nX0H9Fv4M8pelzQXYXET+VhBs04wkg/lNW/8AqUr/1EOm+hdQD3Q3zWDbi1ja/KatKdSqcsQorQ7bC4JvxCL9LXLT1i8YVbTxMNRvAJS/EQvaskbNnxEoYAM6H2NQ2hS+ZQ3a3NefX2Pla5BklUtAvf6RW+Vv7kMeg+BcXo+Vb90DmJJQkFD3H4NAHhgh4z1evlaR5oUcBaVp0nqCB0aQR2tonCgdJyvJdD3HgpL2v/mjNdBDyDoNlZMxUVB16bC8o/C4Vv+TvOf6rZ0TUOXYUC8SqMjjWnn/07/STmEoHpWT40DJxr/Ig235EQAmVBZXy8wMARMNJUufkSMAgMMSFJT10c4SKtqsOVIuN03eicSp2GEJ+bGSPxTUlOyj5SizIki5KyoQJVCxYyWAAzjJ8rWyt+PoyvHAnCgRVjDBC6HEKT1xAEd2VAmhchJKy0Wo2KLSlGRKlTiqJM3qxjsV6T9sGVUSqf4uHGaSh7qkx9+SYx+JdG9rnE/1I9l6r+JFKXX8TXpQMDlLwMpKqJKtZ72DIgp6pFIfv71TTCRTCbCyOSqivjRFVIwjlYIFhDF+s5KNF7OKxZW16TCvay+Ii8U6fMo9pqs3X8pMJM26zWaZXO7+9A/GRVb9nZcU2Md0OQeajT/vdDQFd56zszw5dA5xL3n9zW7DPPtAM+vot57/XWfb5N74lMuUnVKNF2C9syZVvKPfjEPyxjOVnuJUH3lMv/jX1bU36hUo/iH55OsEui6yyavglzITueoLdWaJ+zpB4sULffyTG01h+bessBIzkSaMv0QqevEi9oqKPtYkRXO8snNTKvtTV01jO0PCV1QiL/PoY2Y4JUcON65iZtlX5SRDjw76uhbthMKXeaKvPXF8WqcqsKaxzPCRuq7XY5SDW3DeeJLXnuZhpVMDcGDVOu2V5k8Ysrb9g2o6rUdf4VIFK1P5C2L+fN144cZ4j/YKhwjJ4nb2ikZi/t6Vv4iHvErnvXRo8JCw1hl3bmm3Wdv5WKHr762zGs/VO5kuwV46JDmU23guwPp6EO5WCFHXIkjhP6/zmbTXNyORNflQS5tHY3qiEqfyarKm9xFrwj9ak+Qv2arr4BdZcWLgR5SrileXNVldnTACxlpbXXP/0BMz4ZmoDn7ld2lpjU53SSrchNbGyuoHOnFp2trKGp4jWL2wndmyfiq8HL20tEIlwERxmKpXEUFZxE5JIeUVdu28F+7XuFOPkGp9wofS1iVNRyJyjVM5/9MEU7H1JGAIFIsdQ/VkNmmVKfdLHPyPOKxOJFQWgdqgK6/0CJTkYq0yWeVWLfrcBdOFKBWOqY1/STv1KhWcsiyrUulhA9e9QBdf+0FQsfDDIHeWEGsOlVBPCmVZd6J6xZ9QWbkXtYKXEiq9OFElSAl8Ve453Q4ERZqQb9Y8T+F267nyBxoxlGVtSCqVfpbnrsw1S5I8eTaVhU0HglrqbPDSexoouU0gKJxI79lpMAVU756XMFWhcBsy87sylDWVtpwC1NLSAyO0FKEq5QdgZfCvvz2Ukx1RBcqywEhKn6RbfZjGhxQ4lNWbPvBHlUWgsNYm5cg0HAhlVcoTSHinhSJ23QcpEgSF06qSSamgPC7PLylUpVK+VyZKB4W1cjfR8MxABFWpVLSNO/EY93ehiFbvPjxgKHfWEq6tyPSlgqEmH+5SWLQwlI+29vAwmdxP3eYqT+8nk4eHBXA8/Q8ey5Go06tqPwAAAABJRU5ErkJggg==" 
+        alt="image" loading="eager">
+        <figcaption class="name">Phinehas S P</figcaption>
+
+          <div class="wrapper">
+            <svg>
+              <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                Full Stack Developer
+              </text>
+            </svg>
+          </div>
+
+    </figure>
+   <main>
+ <section class="about" id="about">
+  <h2 class="aboutmy">Hey, my name is Phinehas. 
+    I have been actively working in the full stack development for more than a years. I always aim to deliver innovative software solutions</h2>
+    <p class="aboutp">Welcome to our circle! I'm a visionary full stack Developer designer who turns digital dreams into reality. Phinehas is not just a name; it's like a compass that guides users through a seamless and captivating journey in the digital world. With skillful touches and an eye for aesthetics, I transform complex ideas into elegant and intuitive software</p>
+    <h2 class="htwos">My Skills</h2>
+    <div class="flex-container">
+      <div class="flex-items">React</div>
+      <div class="flex-items">React Native</div>
+      <div class="flex-items">Next Js</div>
+      <div class="flex-items">Tailwind Css</div>
+      <div class="flex-items">Tauri</div>
+      <div class="flex-items">GraphQl</div>
+      <div class="flex-items">Django</div>
+      <div class="flex-items">Postgresql</div>
+      <div class="flex-items">Docker</div>
+      <div class="flex-items">Devops</div>
+      <div class="flex-items">Yaml</div>
+      <div class="flex-items">Github Actions</div>
+   </div>
+   <h2 class="myservicesh">My Services</h2>
+   <details>
+    <summary>Full stack</summary>
+    <p>I specialize in Full stack development, dedicated to transforming your digital presence. With a keen eye for aesthetics and a focus on user-centricity, I craft intuitive interfaces that leave a lasting impact. Whether you're launching a new website or revitalizing an existing application, I take your vision and turn it into a seamless and engaging better experience.</p>
+   </details> 
+ </section>
+ <section class="projects" id="projects">
+  <figure class="projectone">
+    <img src="https://images.pexels.com/photos/4393668/pexels-photo-4393668.jpeg?auto=compress&cs=tinysrgb&w=600"
+     alt="food delivery" >
+     <figcaption class="projectfig">
+      <h4>Food Delivery App</h4>
+     </figcaption>
+  </figure>
+  <figure class="projectone">
+    <img src="https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=600"
+     alt="ecommerce" >
+     <figcaption class="projectfig">
+      <h4>Ecommerce Platform</h4>
+     </figcaption>
+  </figure>
+</main>
+<footer>
+<section class="contact" id="contact">
+<h3>Wanna work with me?</h3>
+<div class="mail">
+<a href="mailto:spphinehash2016@gmail.com">spphinehash2016@gmail.com</a>
+</div>
+</section>
+ </section>
+</footer>
+</body>
+</html>
